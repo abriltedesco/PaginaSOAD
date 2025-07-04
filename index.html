@@ -11,7 +11,7 @@
   <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark headerContenedor">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img class="logoImagen" src="soad-Logo.png" alt="logo" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,27 +20,27 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav listaItemsHeader">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">TIENDA<span class="sr-only"></span></a>
+                        <a class="nav-link" href="tienda.html">TIENDA<span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">NOTICIAS</a>
+                        <a class="nav-link" href="noticias.html">NOTICIAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">TOUR</a>
+                        <a class="nav-link" href="tour.html">TOUR</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         SOBRE LA BANDA
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">MIEMBROS</a>
-                        <a class="dropdown-item" href="#">ALBUMES</a>
-                        <a class="dropdown-item" href="#">EX-MIEMBROS</a>
-                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="miembros.html">MIEMBROS</a></li>   
+                            <li><a class="dropdown-item" href="albumes.html">ALBUMES</a></li>     
+                            <li><a class="dropdown-item" href="miembros.html">EX-MIEMBROS</a></li>
+                        </ul>
                     </li>
                 </ul>
-                </div>
-            </nav>
+            </div>
+        </nav>
     </header>
     <main>
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
@@ -68,25 +68,20 @@
     <footer>
         <div class="container text-center">
             <div class="row">
-                <div class="col">
-                </div>
-                <div class="col-8">
-                </div>
-                <div class="col-6 contenedorInfoFooter">
+                <div class="col-2"></div>
+                <div class="col-8 contenedorInfoFooter">
                     <div class="grid text-center overflow-x-auto">
-                        <div>
-                            <a>Terminos y condiciones</a>
-                            <a>Terminos y condiciones</a>
-                            <div class="grid contenedorIconos">
-                                <a><img class="iconosFooter" src="ig.png"/></a>
-                                <a><img class="iconosFooter" src="tw.png"/></a>
-                                <a><img class="iconosFooter" src="facebook.png"/></a>
-                                <a><img class="iconosFooter" src="yt.png"/></a>
+                            <a><p class = "h6">@ 2025 System Of A Down</p></a>
+                            <a><p class = "h6">Terminos y condiciones</p></a>
+                            <div class="contenedorIconos">
+                                <a><img class="img-fluid iconosFooter" src="ig.png"/></a>
+                                <a><img class="img-fluid iconosFooter" src="tw.png"/></a>
+                                <a><img class="img-fluid iconosFooter" src="facebook.png"/></a>
+                                <a><img class="img-fluid iconosFooter" src="yt.png"/></a>
                             </div>
-                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                </div>
+                <div class="col-2"></div>
             </div>
         </div>
     </footer>
