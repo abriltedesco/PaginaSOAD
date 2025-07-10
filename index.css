@@ -7,11 +7,9 @@
 .listaItemsHeader a{
     color:white;
 }
-
-.headerContenedor{
-    background-color: black;
+body{
+     background-color: black;
 }
-
 footer{
     background-color: black;
     padding: 0.5%;
@@ -39,4 +37,12 @@ footer{
 
 .botonesCarousel{
     color:aliceblue;
+}
+.contenedorForm{
+    padding: 2.5%;
+}
+
+.divsForm{
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
