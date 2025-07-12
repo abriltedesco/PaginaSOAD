@@ -10,6 +10,7 @@
 
 main{
     background-color: rgb(0, 0, 0);
+        font-family: "Inter", sans-serif;
 }
 
 footer{
@@ -76,7 +77,7 @@ footer{
     width: 50%;
 }
 
-.contTour{
+.contTyN{
     padding: 2.5%;
     width:100%;
     margin-top: 2.5%;
@@ -85,14 +86,6 @@ footer{
     margin-right: 1.5%;
     color: white;
     /*text-align: center;*/
-}
-
-.contTour h3{
-    font-size: 90%;
-}
-
-.contTour h2{
-    font-size: 100%;
 }
 
 .contenedor:hover{
@@ -104,20 +97,50 @@ footer{
 }
 
 .tourFecha h2, .tourFecha h3{
+   font-family: "Inter", sans-serif;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
 }
 
 .tourFecha{
     text-align: center;
+    justify-content: center;
 }
 
-@media (max-width: 700px) {
-    .row. {
-        order: 1; /* Posiciona el row de la línea 71-138 por encima */
+.titulo{
+    font-family: "Bebas Neue" ;
+    text-align: center;
+    color: rgb(112, 0, 0);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.tarjetaNoticia{
+    margin: 1.5%;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.contenedorForm h3{
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 150%;
+}
+.inter-Tipografia {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media(max-width: 768px) {
+    .contTyN {
+        padding: 1.5%;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
     }
 
-    .col.der {
-        order: 2; /* Posiciona el div de la línea 140-150 por debajo */
-    }
 }
