@@ -15,6 +15,7 @@ main{
 footer{
     background-color: black;
     padding: 0.5%;
+    color: white;
 }
 
 .contenedorIconos{
@@ -80,10 +81,10 @@ footer{
     width:100%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .contTour h3{
@@ -94,11 +95,29 @@ footer{
     font-size: 100%;
 }
 
-.izq:hover{
+.contenedor:hover{
     background-color: rgb(12, 12, 12);
+}
+
+.contenedor{
+    padding: 5%;
 }
 
 .tourFecha h2, .tourFecha h3{
     margin-top: 0.5%;
     margin-bottom: 0.5%;
+}
+
+.tourFecha{
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .row. {
+        order: 1; /* Posiciona el row de la línea 71-138 por encima */
+    }
+
+    .col.der {
+        order: 2; /* Posiciona el div de la línea 140-150 por debajo */
+    }
 }
