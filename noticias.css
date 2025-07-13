@@ -1,5 +1,103 @@
-.foto1{
-    height: 50%;
-    width: 40%;
-    padding-top: 50%;
+
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.headerContenedor {
+    padding: 10px 30px;
+}
+
+.logoImagen {
+    width: 70px;
+    height: auto;
+}
+
+.listaItemsHeader .nav-link {
+    color: #ddd !important;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.listaItemsHeader .nav-link:hover,
+.listaItemsHeader .nav-link.active {
+    color: #f00 !important;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin: 40px 0 20px;
+    text-shadow: 2px 2px 5px #000;
+    color: #ff4747;
+}
+
+.tarjetaNoticia {
+    max-width: 900px;
+    background-color: #2e2e2e;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.tarjetaNoticia img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.tarjetaNoticia .card-body {
+    padding: 25px;
+}
+
+.tarjetaNoticia .card-title {
+    font-size: 1.8rem;
+    color: #ffb347;
+    margin-bottom: 15px;
+}
+
+.tarjetaNoticia .card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+.contenedorInfoFooter {
+    text-align: center;
+    color: #bbb;
+}
+
+.contenedorInfoFooter p {
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.contenedorInfoFooter p:hover {
+    color: #f00;
+}
+
+.contenedorIconos {
+    margin-top: 15px;
+}
+
+.iconosFooter {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.iconosFooter:hover {
+    transform: scale(1.2);
 }
