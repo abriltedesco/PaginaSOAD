@@ -10,7 +10,7 @@
 
 main{
     background-color: rgb(0, 0, 0);
-        font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 footer{
@@ -101,10 +101,18 @@ footer{
     margin-top: 0.5%;
     margin-bottom: 0.5%;
 }
-
-.tourFecha{
-    text-align: center;
+.tourFecha {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.tourFecha .h3{
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .titulo{
@@ -136,11 +144,48 @@ footer{
   font-style: normal;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 670px) {
     .contTyN {
         padding: 1.5%;
         margin-top: 1.5%;
         margin-bottom: 1.5%;
     }
-
+    .tourFecha .h3{
+        font-size: 0.9rem;
+    }
+    .tourFecha .h2{
+        font-size: 1.1rem;
+    }
 }
+
+@media(max-width: 1000px) {
+    .contTyN {
+        padding: 1.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .tourFecha .h3{
+        font-size: 1.5rem;
+    }
+    .tourFecha .h2{
+        font-size: 1.7rem;
+    }
+}
+
+/*
+@media(min-width: 1000px) {
+    .contTyN {
+        padding: 1.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .tourFecha .h3{
+        font-size: 1.8rem;
+    }
+    .tourFecha .h2{
+        font-size: 2rem;
+    }
+    .contenedor{
+        padding: 2.5%;
+    }
+}*/
