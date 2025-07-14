@@ -6,16 +6,16 @@ body {
     padding: 0;
 }
 
-.tarjetaMiembro img {
-    height: 10%;
-    width: 10%;
+.imgMiembro{
+    height: 50%;
+    width: 50%;
 }
 
 .logoImagen{
     width: 45%;
     height: 25%;
     padding-left: 2.5%;
-}   
+}
 
 .listaItemsHeader a{
     color:white;
@@ -34,7 +34,7 @@ footer{
 
 .listaItemsHeader .nav-link:hover,
 .listaItemsHeader .nav-link.active {
-    color: #f00 !important;
+    color: #ff4747 !important;
 }
 
 .contenedorIconos{
@@ -56,4 +56,12 @@ footer{
 
 .contenedorInfoFooter a{
     width:100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin: 40px 0 20px;
+    text-shadow: 2px 2px 5px #000;
+    color: #ff4747;
 }
