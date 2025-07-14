@@ -147,6 +147,10 @@ footer{
     font-style: normal;
 }
 
+.menuDespgleable {
+    background-color: black;
+}
+
 @media(min-width: 1000px) {
     .contTyN {
         padding: 1.5%;
@@ -194,5 +198,12 @@ footer{
     }
     .tourFecha .h2{
         font-size: 1.7rem !important;
+    }
+}
+
+@media(max-width: 980px) {
+    .contenedorIconos img{
+        width: 6%;
+        height: 6%;
     }
 }

@@ -17,7 +17,6 @@ footer{
     padding: 0.5%;
 }
 
-
 .contenedorIconos{
     width:100%;
     display:inline-block;
@@ -27,15 +26,17 @@ footer{
 .contenedorIconos img{
     width: 2.5%;
     height: 2.5%;
-   margin-left: 1%;
-   margin-right: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .contenedorInfoFooter {
     display:block;
 }
-.contenedorInfoFooter a{
+
+.contenedorInfoFooter .h6{
     width:100%;
+    color:rgb(160, 160, 160)
 }
 
 .botonesCarousel{
@@ -92,6 +93,7 @@ footer{
 .d-none{
     display:none;
 }
+
 #stockAlert {
     position: fixed; 
     top: 50%; 
@@ -110,4 +112,11 @@ footer{
 
 svg{
     display:none;
+}
+
+@media(max-width: 980px) {
+    .contenedorIconos img{
+        width: 6%;
+        height: 6%;
+    }
 }
