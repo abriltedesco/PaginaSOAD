@@ -12,6 +12,11 @@
     background-color: black;
 }
 
+.listaItemsHeader .nav-link:hover,
+.listaItemsHeader .nav-link.active {
+    color: #f00 !important;
+}
+
 footer{
     background-color: black;
     padding: 0.5%;
