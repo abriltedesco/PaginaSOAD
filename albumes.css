@@ -1,0 +1,128 @@
+.logoImagen{
+    width: 45%;
+    height: 25%;
+    padding-left: 2.5%;
+}   
+
+.listaItemsHeader a{
+    color:white;
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+}
+
+footer{
+    background-color: black;
+    padding: 0.5%;
+    color: white;
+}
+
+.listaItemsHeader .nav-link:hover,
+.listaItemsHeader .nav-link.active {
+    color: #f00 !important;
+}
+
+.contenedorIconos{
+    width:100%;
+    display:inline-block;
+    margin-top:1%;
+}
+
+.contenedorIconos img{
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.contenedorInfoFooter {
+    display:block;
+}
+
+.contenedorInfoFooter a{
+    width:100%;
+}
+
+.contenedorForm h3{
+    font-size: 17px ;
+}
+
+.divsForm col input{
+    width: 35%;
+    height: 50%;
+}
+
+.inputsNombre::placeholder{
+    font-size: 80%;
+}
+
+.inputsNombre{
+    padding: 0%;
+}
+
+.contenedor:hover{
+    background-color: rgb(19, 19, 19);
+}
+
+.contenedor{
+    padding: 5%;
+}
+
+
+.titulo{
+    font-family: "Bebas Neue" ;
+    text-align: center;
+    color: rgb(112, 0, 0);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.inter-Tipografia {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.menuDesplegeable {
+    background-color: black;
+}
+
+.presentacionAlbum{
+    align-items:center ;
+    text-align: left;
+}
+
+.descAlbum h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.descAlbum h4{
+    font-size: 1rem;
+}
+
+.contenedorAlbum{
+    color:white;
+    margin-top: 2.5%;
+}
+
+.contenedorAlbum img{
+    width: 55%;
+    height: 55%;
+}
+
+.presentacionAlbum{
+    display:inline-block;
+}
+
+
+@media(max-width: 980px) {
+    .contenedorIconos img{
+        width: 6%;
+        height: 6%;
+    }
+}
+

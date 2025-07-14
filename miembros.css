@@ -6,9 +6,9 @@ body {
     padding: 0;
 }
 
-.imgMiembro {
-    height: 20%;
-    width: 20%;
+.tarjetaMiembro img {
+    height: 10%;
+    width: 10%;
 }
 
 .logoImagen{
