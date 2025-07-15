@@ -11,10 +11,10 @@
 <body> 
      <header  style="background-color: black;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark headerContenedor">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand divImagen" href="index.html">
                 <img class="logoImagen" src="soad-Logo.png" alt="logo" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -49,9 +49,9 @@
                 <div class="col-md-7 infoAlbum-descYfoto">
                     <div class="row presentacionAlbum">
                         <div class="col-3 cover"><img src="album1.jpeg"/></div>
-                        <div class="col-5 descAlbum" style="color:white"> 
-                            <h2>System Of A Down</h2>
-                            <h4>1998 (debut)</h>
+                        <div class="col-5 descAlbum" style="color:white; width:75%;"> 
+                            <h2 class="h2">System Of A Down</h2>
+                            <h4 class="h4">1998 (debut)</h>
                             <div class="contenedorIconos">
                                 <a href="https://open.spotify.com/intl-es/album/1GIv3kOvMfS5xGh6hNs0kb?si=GlnmdZYbRkG4qY8A_9M0zA" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="spotify.jpg"/></a>
                                 <a href="https://x.com/systemofadown" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="deezer.jpg"/></a>
@@ -70,24 +70,32 @@
                 </div>
                 <div class="col-md-5 cancionesDelAlbum">
                     <h2 class="h2" style="text-align: left; font-weight: 700; font-size: 1.5rem;">TRACKS</h2>
-                    <ol class="listaCanciones">
-                        <li>Suite-Pee</li>
-                        <li>Know</li>
-                        <li>Sugar</li>
-                        <li>Suggestions</li>
-                        <li>Spiders</li>
-                        <li>DDevil</li>
-                        <li>Soil</li>
-                        <li>War?</li>
-                        <li>Mind</li>
-                        <li>Peephole</li>
-                        <div class="masCanciones">
-                            <li>CUBErt</li>
-                            <li>Darts</li>
-                            <li>P.L.U.C.K</li>
+                    <div class="fila" style="display: flex; justify-content: center;">
+                        <div class="col">
+                            <ol class="listaCanciones">
+                                <li>Suite-Pee</li>
+                                <li>Know</li>
+                                <li>Sugar</li>
+                                <li>Suggestions</li>
+                                <li>Spiders</li>
+                                <li>Soil</li>
+                                <li>War?</li>
+                                <li>Mind</li>
+                                <li>Peephole</li>
+                                <li>CUBErt</li>
+                            </ol>
                         </div>
-                    </ol>
-                    <button class="btn btn-secondary"> + canciones </button>
+                        <div class="col">
+                            <div class="masCanciones">
+                                <ol class="listaCanciones" start="11">
+                                    <li>CUBErt</li>
+                                    <li>Darts</li>
+                                    <li>P.L.U.C.K</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-secondary btn-cerrar"> + canciones </button>
                 </div>
             </div>
 
@@ -97,8 +105,8 @@
                     <div class="row presentacionAlbum">
                         <div class="col-3 cover"><img src="toxicity.jpg"/></div>
                         <div class="col-5 descAlbum" style="color:white"> 
-                            <h2>Toxicity</h2>
-                            <h4>2001</h>
+                            <h2 class="h2" >Toxicity</h2>
+                            <h4  class="h4" >2001</h>
                             <div class="contenedorIconos">
                                 <a href="https://open.spotify.com/intl-es/album/6jWde94ln40epKIQCd8XUh?si=RxHGX3x-RLO2emyHyiYnLg" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="spotify.jpg"/></a>
                                 <a href="https://x.com/systemofadown" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="deezer.jpg"/></a>
@@ -116,24 +124,32 @@
                 </div>
                 <div class="col-md-5 cancionesDelAlbum">
                     <h2 class="h2" style="text-align: left; font-weight: 700; font-size: 1.5rem;">TRACKS</h2>
-                    <ol class="listaCanciones">
-                        <li>Prison Song</li>
-                        <li>Needles</li>
-                        <li>Deer dance</li>
-                        <li>Jet pilot</li>
-                        <li>X</li>
-                        <li>Chop Suey!</li>
-                        <li>Bounce</li>
-                        <li>Forest</li>
-                        <li>ATWA</li>
-                        <li>Science</li>
-                        <div class="masCanciones">
-                            <li>Shimmy</li>
-                            <li>Toxicity</li>
-                            <li>Psycho</li>
-                            <li>Aerials</li>
+                    <div class="fila" style="display: flex; justify-content: center;">
+                        <div class="col">
+                            <ol class="listaCanciones">
+                                <li>Prison Song</li>
+                                <li>Needles</li>
+                                <li>Deer dance</li>
+                                <li>Jet pilot</li>
+                                <li>X</li>
+                                <li>Chop Suey!</li>
+                                <li>Bounce</li>
+                                <li>Forest</li>
+                                <li>ATWA</li>
+                                <li>Science</li>
+                            </ol>
                         </div>
-                    </ol>
+                        <div class="col">
+                            <div class="masCanciones">
+                                <ol class="listaCanciones" start="11">
+                                    <li>Shimmy</li>
+                                    <li>Toxicity</li>
+                                    <li>Psycho</li>
+                                    <li>Aerials</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
                     <button class="btn btn-secondary"> + canciones </button>
                 </div>
             </div>
@@ -144,8 +160,8 @@
                     <div class="row presentacionAlbum">
                         <div class="col-3 cover"><img src="sta.avif"/></div>
                         <div class="col-5 descAlbum" style="color:white"> 
-                            <h2>Steal This Album!</h2>
-                            <h4>2002</h>
+                            <h2 class="h2">Steal This Album!</h2>
+                            <h4 class="h4">2002</h>
                             <div class="contenedorIconos">
                                 <a href="https://open.spotify.com/intl-es/album/6lA1sGw7eCv27bcpd5E0wT?si=QRXkVepWQ7aQydBJzhoq1Q" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="spotify.jpg"/></a>
                                 <a href="https://x.com/systemofadown" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="deezer.jpg"/></a>
@@ -164,26 +180,34 @@
                 </div>
                 <div class="col-md-5 cancionesDelAlbum">
                     <h2 class="h2" style="text-align: left; font-weight: 700; font-size: 1.5rem;">TRACKS</h2>
-                    <ol class="listaCanciones">
-                        <li>Chic N Stu</li>
-                        <li>Innevision</li>
-                        <li>Bubbles</li>
-                        <li>Boom!</li>
-                        <li>Nüguns</li>
-                        <li>A.D.D</li>
-                        <li>Mr.Jack</li>
-                        <li>I-E-A-I-A-I-O</li>
-                        <li>36</li>
-                        <li>Pictures</li>
-                        <div class="masCanciones">
-                            <li>Highway Song</li>
-                            <li>Fvck the System</li>
-                            <li>Ego Brain</li>
-                            <li>Thetawaves</li>
-                            <li>Roulette</li>
-                            <li>Streamline</li>
+                    <div class="fila" style="display: flex; justify-content: center;">
+                        <div class="col">
+                            <ol class="listaCanciones">
+                                <li>Chic N Stu</li>
+                                <li>Innevision</li>
+                                <li>Bubbles</li>
+                                <li>Boom!</li>
+                                <li>Nüguns</li>
+                                <li>A.D.D</li>
+                                <li>Mr.Jack</li>
+                                <li>I-E-A-I-A-I-O</li>
+                                <li>36</li>
+                                <li>Pictures</li>
+                            </ol>
                         </div>
-                    </ol>
+                        <div class="col">
+                            <div class="masCanciones">
+                                <ol class="listaCanciones" start="11">
+                                    <li>Highway Song</li>
+                                    <li>Fvck the System</li>
+                                    <li>Ego Brain</li>
+                                    <li>Thetawaves</li>
+                                    <li>Roulette</li>
+                                    <li>Streamline</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
                     <button class="btn btn-secondary"> + canciones </button>
                 </div>
             </div>
@@ -194,8 +218,8 @@
                     <div class="row presentacionAlbum">
                         <div class="col-3 cover"><img src="Mezmerize.jpg"/></div>
                         <div class="col-5 descAlbum" style="color:white"> 
-                            <h2>Mezmerize</h2>
-                            <h4>2005</h>
+                            <h2 class="h2">Mezmerize</h2>
+                            <h4 class="h4">2005</h>
                             <div class="contenedorIconos">
                                 <a href="https://open.spotify.com/intl-es/album/0cn6MHyx4YuZauaB7Pb66o?si=510GmnC_SU6m941KNjRY3g" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="spotify.jpg"/></a>
                                 <a href="https://x.com/systemofadown" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="deezer.jpg"/></a>
@@ -213,21 +237,29 @@
                 </div>
                 <div class="col-md-5 cancionesDelAlbum">
                     <h2 class="h2" style="text-align: left; font-weight: 700; font-size: 1.5rem;">TRACKS</h2>
-                    <ol class="listaCanciones">
-                        <li>Soldier Side (intro)</li>
-                        <li>B.Y.O.B</li>
-                        <li>Revenga</li>
-                        <li>Cigaro</li>
-                        <li>Radio/Video</li>
-                        <li>This Cocaine Makes Me Feel Like I'm On This Song</li>
-                        <li>Violent Pornography</li>
-                        <li>Question!</li>
-                        <li>Sad Statue</li>
-                        <li>Old School Hollywood</li>
-                        <div class="masCanciones">
-                            <li>Lost in Hollywood</li>
+                    <div class="fila" style="display: flex; justify-content: center;">
+                        <div class="col">
+                            <ol class="listaCanciones">
+                                <li>Soldier Side (intro)</li>
+                                <li>B.Y.O.B</li>
+                                <li>Revenga</li>
+                                <li>Cigaro</li>
+                                <li>Radio/Video</li>
+                                <li>This Cocaine Makes Me Feel Like I'm On This Song</li>
+                                <li>Violent Pornography</li>
+                                <li>Question!</li>
+                                <li>Sad Statue</li>
+                                <li>Old School Hollywood</li>
+                            </ol>
                         </div>
-                    </ol>
+                        <div class="col">
+                            <div class="masCanciones">
+                                <ol class="listaCanciones" start="11">
+                                    <li>Lost in Hollywood</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
                     <button class="btn btn-secondary"> + canciones </button>
                 </div>
             </div>
@@ -258,22 +290,30 @@
                 </div>
                 <div class="col-md-5 cancionesDelAlbum">
                     <h2 class="h2" style="text-align: left; font-weight: 700; font-size: 1.5rem;">TRACKS</h2>
-                    <ol class="listaCanciones">
-                        <li>Attack</li>
-                        <li>Dreaming</li>
-                        <li>Kill Rock 'n Roll</li>
-                        <li>Hypnotize</li>
-                        <li>Stealing Society</li>
-                        <li>Tentative</li>
-                        <li>U-Fig</li>
-                        <li>Holy Mountains</li>
-                        <li>Vicinity of Obscenity</li>
-                        <li>She's Like Heroin</li>
-                        <div class="masCanciones">
-                            <li>Lonely Day</li>
-                            <li>Soldier Side</li>
+                    <div class="fila" style="display: flex; justify-content: center;">
+                        <div class="col">
+                            <ol class="listaCanciones">
+                                <li>Attack</li>
+                                <li>Dreaming</li>
+                                <li>Kill Rock 'n Roll</li>
+                                <li>Hypnotize</li>
+                                <li>Stealing Society</li>
+                                <li>Tentative</li>
+                                <li>U-Fig</li>
+                                <li>Holy Mountains</li>
+                                <li>Vicinity of Obscenity</li>
+                                <li>She's Like Heroin</li>
+                            </ol>
                         </div>
-                    </ol>
+                        <div class="col">
+                            <div class="masCanciones">
+                                <ol class="listaCanciones" start="11">
+                                    <li>Lonely Day</li>
+                                    <li>Soldier Side</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
                     <button class="btn btn-secondary"> + canciones </button>
                 </div>
             </div>
@@ -302,6 +342,31 @@
             </div>
         </div>
     </footer>
+
+    <!--- para q sirva el boton de + -->
+    <script>
+        const botones = document.querySelectorAll('.btn.btn-secondary');
+
+        botones.forEach(boton => {
+            boton.addEventListener('click', () => {
+            const masCanciones = boton.previousElementSibling.querySelector('.masCanciones');
+
+            if (masCanciones) {
+                const visible = getComputedStyle(masCanciones).display !== 'none';
+
+                if (visible) {
+                masCanciones.style.display = 'none';
+                boton.textContent = '+ canciones';
+                } else {
+                masCanciones.style.display = 'block';
+                boton.textContent = '- canciones';
+                }
+            }
+            });
+        });
+    </script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
