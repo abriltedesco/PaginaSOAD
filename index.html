@@ -14,14 +14,14 @@
 
   <body>
         <audio controls  autoplay  style="display: none;">
-        <source src="Toxicity.mp3" type="audio/mpeg">
-    </audio>
+            <source src="Toxicity.mp3" type="audio/mpeg">
+        </audio>
     <header  style="background-color: black;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark headerContenedor">
             <a class="navbar-brand" href="index.html">
                 <img class="logoImagen" src="soad-Logo.png" alt="logo" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -75,8 +75,8 @@
         <!-- contenedor co tour y noticias -->
         <div class="container text-center .m-0 contTyN">
             <div class="row">
-                <div class="col ">
-                    <div class="row TOUR" id="tour">
+                <div class="col">
+                    <div class="row TOUR" id="tour" style="margin:0% !important;">
                         <h1 class="titulo" style="margin-top: 2.5%">TOUR</h1>
                             <!-- fechas tour -->
                         <div class="col tourFechas">
@@ -129,20 +129,18 @@
                                 </div>
                             </div>
                     </div>
-                    <div class="row rowNoticias">
+                    <div class="row rowNoticias" style="width:100%;">
                         <h1 class="titulo">ULTIMAS NOTICIAS</h1>
-                        <div class="col noticias">
-                            <div class="card">
-                                <div class="card-body tarjetaNoticia " style="background-color: rgb(68, 68, 68); ">
+                        <div class="col-12 col-sm-6 noticias">
+                            <div class="card mx-auto"> <div class="card-body tarjetaNoticia " style="background-color: rgb(68, 68, 68); ">
                                     <h5 class="card-title h5" style="color: white;">SOAD arrasa en Argentina</h5>
                                     <p class="card-text h6" style="color: white;">Marcó el regreso de SOAD a Argentina después de 10 años. Fue descrito como una fiesta, con momentos memorables </p>
                                     <a href="noticias.html" class="btn btn-secondary">Leer más</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col noticias">
-                            <div class="card">
-                                <div class="card-body tarjetaNoticia .m-0"  style="background-color: rgb(68, 68, 68);
+                        <div class="col-12 col-sm-6 noticias">
+                            <div class="card mx-auto"> <div class="card-body tarjetaNoticia .m-0"  style="background-color: rgb(68, 68, 68);
                                 border-color:  rgb(0, 0, 0);">
                                     <h5 class="card-title h5" style="color: white;">Imágenes de SOAD se hacen virales</h5>
                                     <p class="card-text h6" style="color: white;">Capturadas por un dron en un reciente concierto en Brasil se han hecho virales... y no sin razón.</p>
@@ -154,6 +152,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Formulario -->
         <div class="container text-center contenedorForm">
             <div class="row">
@@ -173,7 +172,7 @@
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email</label>
                         </div>
-                        <button type="submit" class="btn btn-primary divsForm boton" style="background-color: rgb(112, 0, 0)">Sign in</button>
+                        <button type="submit" class="btn btn-primary divsForm boton" style="background-color: rgb(112, 0, 0); border-color: rgb(112, 0, 0);">Sign in</button>
                     </div>         
                 <div class="col-2"></div>
             </div>
@@ -187,7 +186,7 @@
                 <div class="col-8 contenedorInfoFooter">
                     <div class="grid text-center overflow-x-auto">
                             <a><p class = "h6">@ 2025 System Of A Down</p></a>
-                            <a href="https://www.sonymusic.com/privacy-policy/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><p class = "h6">Terminos y condiciones</p></a>
+                            <a href="https://www.sonymusic.com/privacy-policy/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: white;"><p class = "h6">Terminos y condiciones</p></a>
                             <div class="contenedorIconos">
                                 <a href="https://www.instagram.com/systemofadown/" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="ig.png"/></a>
                                 <a href="https://x.com/systemofadown" target="_blank" rel="noopener noreferrer"><img class="img-fluid iconosFooter" src="tw.png"/></a>
