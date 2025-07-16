@@ -103,6 +103,11 @@ footer {
   flex-direction: column;
 }
 
+.linkNav{
+    width: 80%;
+    padding-left: 3%;
+}
+
 @media (max-width: 1000px) {
     .contenedorTarjetas .col-md-4 {
         flex: 0 0 100%;
@@ -111,6 +116,20 @@ footer {
     .contenedorIconos img{
         width: 9%;
         height: 9%;
+    }
+}
+
+@media(max-width: 980px) {
+    .divImagen{
+    width: 85% !important;
+    height: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .divImagen{
+    width: 70% !important;
+    height: 100%;
     }
 }
 

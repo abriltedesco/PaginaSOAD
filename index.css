@@ -171,6 +171,11 @@ footer{
     background-color: black;
 }
 
+.linkNav{
+    width: 80%;
+    padding-left: 3%;
+}
+
 @media(min-width: 1000px) {
     .contTyN {
         padding: 1.5%;
@@ -205,6 +210,11 @@ footer{
         width: 6%;
         height: 6%;
     }
+
+    .divImagen{
+    width: 70% !important;
+    height: 100%;
+    }
 }
 
 @media(min-width: 671px) {
@@ -225,5 +235,10 @@ footer{
     .contenedorIconos img{
         width: 6%;
         height: 6%;
+    }
+
+    .divImagen{
+    width: 85%;
+    height: 100%;
     }
 }

@@ -55,11 +55,11 @@ footer{
     padding: 0%;
     border: 0.5%;
 }
-
 .columnaP img{
     width: 100%;
     height: 100%;
 }
+
 .columnaP h3{
     font-size: 150%;
     font-family: "Bebas Neue";
@@ -70,9 +70,10 @@ footer{
     font-size: 100%;
     font-family:"IBM Plex Sans Condensed";
     margin: 0%;
+    margin-bottom: 2.5%;
 }
 
-.prod:hover{
+.columnaP:hover{
     color: rgb(78, 28, 28);
     background-color: rgb(59, 59, 59);
     cursor: pointer;
@@ -119,9 +120,21 @@ svg{
     display:none;
 }
 
+.linkNav{
+    width: 80%;
+    padding-left: 3%;
+}
+
 @media(max-width: 980px) {
-    .contenedorIconos img{
-        width: 6%;
-        height: 6%;
+    .divImagen{
+    width: 85% !important;
+    height: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .divImagen{
+    width: 70% !important;
+    height: 100%;
     }
 }

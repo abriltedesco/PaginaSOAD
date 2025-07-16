@@ -12,34 +12,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body style="background-color: rgb(46, 45, 45);">
-    <audio controls  autoplay  style="display: none;">
+   <!---
+   <audio controls  autoplay  style="display: none;">
         <source src="Toxicity.mp3" type="audio/mpeg">
     </audio>
+   -->
     
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark headerContenedor">
-            <a class="navbar-brand logo .m-0" href="index.html">
+            <a class="navbar-brand logo .m-0 divImagen" href="index.html">
                 <img class="logoImagen" src="soad-Logo.png" alt="logo" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav listaItemsHeader">
-                    <li class="nav-item">
+                    <li class="nav-item linkNav">
                         <a class="nav-link" href="tienda.html">TIENDA<span class="sr-only"></span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item linkNav">
                         <a class="nav-link" href="noticias.html">NOTICIAS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tour.html">TOUR</a>
+                    <li class="nav-item linkNav">
+                        <a class="nav-link" href="index.html#tour">TOUR</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SOBRE LA BANDA</a>
+                        <a class="nav-link dropdown-toggle linkNav" href="#" data-bs-toggle="dropdown">SOBRE LA BANDA</a>
                         <ul class="dropdown-menu menuDesplegable" style="background-color: black;">
                             <li><a class="dropdown-item" href="miembros.html">MIEMBROS</a></li>
-                            <li><a class="dropdown-item" href="miembros.html">EX-MIEMBROS</a></li>
                             <li><a class="dropdown-item" href="albumes.html">ÁLBUMES</a></li>
                         </ul>
                     </li>
@@ -52,10 +53,10 @@
     <main style="background-color: rgb(24, 24, 24);">
 
         <div class="container text-center espaciado-bloque">
-  <div class="row">
-    <div class="col">
-        <h1 class="card-title" style="color: white; margin-top: 3%;">SERJ TANKIAN</h1>
-            <p class="card-text" style="color: white; text-align: left;">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-7 col-lg-8 col-xl-8 textoInfo">
+                    <h1 class="card-title" style="color: white; margin-top: 3%;">SERJ TANKIAN</h1>
+                    <p class="card-text" style="color: white; text-align: left;">
                         Serj Tankian es un músico armenio-estadounidense nacido en Líbano, conocido principalmente por ser el vocalista, compositor y cofundador de la banda System of a Down. Durante su carrera artística, Tankian con System of a Down, ha lanzado cinco álbumes de estudio.  Tiene 57 años de edad, y también formo parte de un grupo antes de formar System Of a Down llamado “Axis of Justice”. 
                     </p>
                     <p class="card-text" style="color: white; text-align: left;">
@@ -68,83 +69,84 @@
                     Tankian es un apasionado de los derechos humanos, el reconocimiento de los genocidios y la justicia social. Estas características han ayudado a dar forma a su estilo lírico en el que escribe su música. Ha organizado y participado en muchas protestas, entre ellas, por el reconocimiento del Genocidio Armenio​ con Axis of Justice junto a Tom Morello.
                     </p>
                 </div>
-    <div class="col-4">
-        <img src="serji.jpg" class="col-md-5 float-md-end mb-3 ms-md-3 w-100 h-99" alt="serj" style="margin-top: 8%;">
-    </div>
-  </div>
+                <div class="col-12 col-md-5 col-lg-4 col-xl-4">
+                    <img src="serji.jpg" class="img-fluid rounded mb-3 mt-md-4" alt="serj" style="margin-top: 8%;">
+                </div>
+            </div>
         </div>
 
-<div class="container text-center espaciado-bloque">
-  <div class="row">
-   <div class="col">
-        <h1 class="card-title" style="color: white; margin-top: 3%;">SHAVO ODADJIAN</h1>
-                <p class="card-text" style="color: white; text-align: left;">
-                    Shavarsh Odadjian es un músico armenio-estadounidense, conocido principalmente por ser el bajista de la banda System of a Down. También toca el bajo en un grupo de trap llamado North Kingsley y en la banda de metalcore Seven Hours After Violet. Tiene 51 años de edad y sus grupos musicales son: System of a Down (Desde 1994), Seven Hours After Violet (Desde 2024) y Achozen.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                    En 1995 Shavo, junto a Tankian y Malakian deciden formar la banda System of a Down. La banda originalmente se llamaría Victims of a Down, nombre de un poema escrito por Daron Malakian, pero Odajian cambió «Victims» por «System».
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                    Creció bajo la influencia de bandas de punk rock y heavy metal, como Dead Kennedys, Kiss, Black Sabbath, AC/DC, o Iron Maiden, entre otras, lo que le creó una gran influencia en su desarrollo musical del futuro.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                Odadjian inició un proyecto paralelo en el año 2005-2006 llamado AcHoZeN; una alianza musical entre Odadjian, RZA, miembro y fundador de Wu-Tang Clan, Kinetic-9 y Reverend William Burke. La banda tiene una base de rap junto a otro tipo de sonidos, empleados con bajos eléctricos y sonidos electrónicos.
-                </p>
+        <div class="container text-center espaciado-bloque">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8 col-lg-8 col-xl-8 textoInfo">
+                        <h1 class="card-title" style="color: white; margin-top: 3%;">SHAVO ODADJIAN</h1>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            Shavarsh Odadjian es un músico armenio-estadounidense, conocido principalmente por ser el bajista de la banda System of a Down. También toca el bajo en un grupo de trap llamado North Kingsley y en la banda de metalcore Seven Hours After Violet. Tiene 51 años de edad y sus grupos musicales son: System of a Down (Desde 1994), Seven Hours After Violet (Desde 2024) y Achozen.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            En 1995 Shavo, junto a Tankian y Malakian deciden formar la banda System of a Down. La banda originalmente se llamaría Victims of a Down, nombre de un poema escrito por Daron Malakian, pero Odajian cambió «Victims» por «System».
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            Creció bajo la influencia de bandas de punk rock y heavy metal, como Dead Kennedys, Kiss, Black Sabbath, AC/DC, o Iron Maiden, entre otras, lo que le creó una gran influencia en su desarrollo musical del futuro.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                        Odadjian inició un proyecto paralelo en el año 2005-2006 llamado AcHoZeN; una alianza musical entre Odadjian, RZA, miembro y fundador de Wu-Tang Clan, Kinetic-9 y Reverend William Burke. La banda tiene una base de rap junto a otro tipo de sonidos, empleados con bajos eléctricos y sonidos electrónicos.
+                        </p>
+                </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                        <img src="nuevoshav.jpg" class="img-fluid rounded mb-3 mt-md-4" alt="shavo" style="margin-top: 8%;">
+                    </div>
             </div>
-    <div class="col-4">
-        <img src="nuevoshav.jpg" class="col-md-5 float-md-end mb-3 ms-md-3 w-100 h-90" alt="shavo" style="margin-top: 8%;">
-    </div>
-  </div>
-            </div>
+        </div>
 
             <div class="container text-center espaciado-bloque">
-  <div class="row">
-        <div class="col">
-        <h1 class="card-title" style="color: white; margin-top: 3%;">DARON MALAKIAN</h1>
-   <p class="card-text" style="color: white; text-align: left;">
-                    Daron Malakian es un músico estadounidense de origen armenio, conocido por ser el guitarrista, compositor, segunda voz y cofundador de la banda de rock System of a Down. Malakian también es el vocalista, guitarrista, compositor y fundador de la banda Scars on Broadway. Tiene 49 años de edad y sus socios de composicion son Serj Tankian, Shavo Odadjian, Linkin Park.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                    Él siempre quiso tocar la batería, pero su padre le dio una guitarra instantáneamente, y no una batería por el hecho de que una batería no podía apagarse.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                En su adolescencia, cambió sus ritmos musicales a un metal más pesado como el de Slayer, Megadeth, Metallica, Exodus, Anthrax, Pantera, Overkill, Kreator, Destruction, Sodom,Venom, Sepultura,Mercyful Fate, Death, Obituary, Morbid Angel, Bathory, Darkthrone, Deicide y Cannibal Corpse. A sus 17 años tuvo una influencia muy marcada por The Beatles y Peter, Paul and Mary algo muy importante para su desarrollo como compositor.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                Malakian y Serj Tankian asistieron al colegio Rose and Alex Pilibos Armenian School, aunque, dada su diferencia de edad, no se conocieron hasta 1992, cuando compartían estudio de grabación.
-                </p>
-    </div>
-    <div class="col-4">
-        <img src="daron.jpg" class="col-md-12 float-md-end mb-3 ms-md-3 imgMiembro" alt="daron" style="margin-top: 8%;">
-    </div>
-  </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-8 textoInfo">
+                        <h1 class="card-title" style="color: white; margin-top: 3%;">DARON MALAKIAN</h1>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            Daron Malakian es un músico estadounidense de origen armenio, conocido por ser el guitarrista, compositor, segunda voz y cofundador de la banda de rock System of a Down. Malakian también es el vocalista, guitarrista, compositor y fundador de la banda Scars on Broadway. Tiene 49 años de edad y sus socios de composicion son Serj Tankian, Shavo Odadjian, Linkin Park.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            Él siempre quiso tocar la batería, pero su padre le dio una guitarra instantáneamente, y no una batería por el hecho de que una batería no podía apagarse.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                        En su adolescencia, cambió sus ritmos musicales a un metal más pesado como el de Slayer, Megadeth, Metallica, Exodus, Anthrax, Pantera, Overkill, Kreator, Destruction, Sodom,Venom, Sepultura,Mercyful Fate, Death, Obituary, Morbid Angel, Bathory, Darkthrone, Deicide y Cannibal Corpse. A sus 17 años tuvo una influencia muy marcada por The Beatles y Peter, Paul and Mary algo muy importante para su desarrollo como compositor.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                        Malakian y Serj Tankian asistieron al colegio Rose and Alex Pilibos Armenian School, aunque, dada su diferencia de edad, no se conocieron hasta 1992, cuando compartían estudio de grabación.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                        <img src="daron.jpg" class="img-fluid rounded mb-3 mt-md-4" alt="daron" style="margin-top: 8%;">
+                    </div>
+                </div>
             </div>
             
-            <div class="container text-center -bloque">
-  <div class="row">
-        <div class="col">
-        <h1 class="card-title" style="color: white; margin-top: 3%;">JOHN DOLMAYAN</h1>
-<p class="card-text" style="color: white; text-align: left;">
-                    John Dolmayan es un músico armenio-estadounidense nacido en Líbano, conocido principalmente por ser el baterista de la banda System of a Down. También posee un proyecto llamado These Grey Men lanzado en 2020. Tiene 52 años de edad y su socio de composicion es Serj Tankian.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                    Dolmayan describe su estilo musical influido por todo lo que pudo tener en sus manos, incluidos los álbumes de jazz pertenecientes a su padre y los álbumes de rock que compartió con sus amigos.
-                </p>  
-                <p class="card-text" style="color: white; text-align: left;">
-                Dolmayan primero se interesó en los tambores a la edad de dos años. Su padre era un saxofonista y cuando su madre lo llevaba a ver tocar a su padre, él imitaba al baterista de su padre. Aprendió a tocar la batería poniendo discos y practicando durante horas al día, y continuó practicando durante años. Dolmayan describe su estilo musical influido por todo lo que pudo tener en sus manos, incluidos los álbumes de jazz pertenecientes a su padre y los álbumes de rock que compartió con sus amigos.
-                </p>
-                <p class="card-text" style="color: white; text-align: left;">
-                Dolmayan se unió a System of a Down en 1997 después de que su baterista original, Andy Khachaturian, dejase la banda después de una lesión en la mano.
-                Grabó cinco álbumes con System of a Down: System of a Down (album) (1998), Toxicity (2001), Steal This Album! (2002) y, más recientemente, Mezmerize (2005), y Hypnotize (2005).
-                Este mismo también fue elegido Baterista del Año 2006 por la revista DRUM! y fue portada de la misma en su edición de septiembre.
-                </p>
-    </div>
-    <div class="col-4">
-        <img src="dolmayan.jpg" class="col-md-12 float-md-end mb-3 ms-md-3 imgMiembro" alt="john" style="margin-top: 8%;">
-    </div>
-  </div>
+            <div class="container text-center espaciado-bloque">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-8 col-lg-8 col-xl-8 textoInfo">
+                        <h1 class="card-title" style="color: white; margin-top: 3%;">JOHN DOLMAYAN</h1>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            John Dolmayan es un músico armenio-estadounidense nacido en Líbano, conocido principalmente por ser el baterista de la banda System of a Down. También posee un proyecto llamado These Grey Men lanzado en 2020. Tiene 52 años de edad y su socio de composicion es Serj Tankian.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                            Dolmayan describe su estilo musical influido por todo lo que pudo tener en sus manos, incluidos los álbumes de jazz pertenecientes a su padre y los álbumes de rock que compartió con sus amigos.
+                        </p>  
+                        <p class="card-text" style="color: white; text-align: left;">
+                        Dolmayan primero se interesó en los tambores a la edad de dos años. Su padre era un saxofonista y cuando su madre lo llevaba a ver tocar a su padre, él imitaba al baterista de su padre. Aprendió a tocar la batería poniendo discos y practicando durante horas al día, y continuó practicando durante años. Dolmayan describe su estilo musical influido por todo lo que pudo tener en sus manos, incluidos los álbumes de jazz pertenecientes a su padre y los álbumes de rock que compartió con sus amigos.
+                        </p>
+                        <p class="card-text" style="color: white; text-align: left;">
+                        Dolmayan se unió a System of a Down en 1997 después de que su baterista original, Andy Khachaturian, dejase la banda después de una lesión en la mano.
+                        Grabó cinco álbumes con System of a Down: System of a Down (album) (1998), Toxicity (2001), Steal This Album! (2002) y, más recientemente, Mezmerize (2005), y Hypnotize (2005).
+                        Este mismo también fue elegido Baterista del Año 2006 por la revista DRUM! y fue portada de la misma en su edición de septiembre.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                        <img src="dolmayan.jpg" class="img-fluid rounded mb-3 mt-md-4" alt="john" style="margin-top: 8%;">
+                    </div>
+                </div>
             </div>
-    </main>
+            <br>
+</main>
 
 <footer>
         <div class="container text-center">

@@ -159,6 +159,11 @@ footer{
     display:none;
 }
 
+.linkNav{
+    width: 80%;
+    padding-left: 3%;
+}
+
 @media(max-width: 980px) {
     .contenedorIconos img{
         width: 6%;
