@@ -13,9 +13,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 const db = mysql.createConnection({
-  host: '127.0.01',
-  user: 'root',      
-  password: '',      
+  host: '127.0.0.1',
+  user: 'alumno',      
+  password: 'alumnoipm',      
   database: 'soadweb'
 });
 
