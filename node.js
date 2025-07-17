@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: '127.0.01',
   user: 'root',      
   password: '',      
   database: 'soadweb'

@@ -1,0 +1,240 @@
+.logoImagen{
+    width: 45%;
+    height: 25%;
+    padding-left: 2.5%;
+}   
+
+.listaItemsHeader a{
+    color:white;
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+}
+
+footer{
+    background-color: black;
+    padding: 0.5%;
+    color: white;
+}
+
+.listaItemsHeader .nav-link:hover,
+.listaItemsHeader .nav-link.active {
+    color: #f00 !important;
+}
+
+.contenedorIconos{
+    width:100%;
+    display:inline-block;
+    margin-top:1%;
+}
+
+.contenedorIconos img{
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.contenedorInfoFooter {
+    display:block;
+}
+
+.contenedorInfoFooter a{
+    width:100%;
+}
+
+.botonesCarousel{
+    color:aliceblue;
+}
+.contenedorForm{
+    padding: 2.5%;
+}
+
+.divsForm{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.contenedorForm h3{
+    font-size: 17px ;
+}
+
+.divsForm col input{
+    width: 35%;
+    height: 50%;
+}
+
+.inputsNombre::placeholder{
+    font-size: 80%;
+}
+
+.inputsNombre{
+    padding: 0%;
+}
+
+.colNombre{
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+}
+
+.boton{
+    margin: 0%;
+    width: 50%;
+}
+
+.contTyN{
+    padding: 2.5%;
+    width:100%;
+    margin-top: 2.5%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    color: white;
+}
+
+.contenedor:hover{
+    background-color: rgb(19, 19, 19);
+}
+
+.contenedor{
+    padding: 5%;
+}
+
+.tourFecha h2, .tourFecha h3{
+   font-family: "Inter", sans-serif;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.tourFecha h3{
+   font-weight: 700;
+   font-size: 1rem;
+}
+
+.rowNoticias{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaNoticia h5{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+.tarjetaNoticia p{
+    font-size: 1.1rem;
+}
+
+.tourFecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.titulo{
+    font-family: "Bebas Neue" ;
+    text-align: center;
+    color: rgb(112, 0, 0);
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.tarjetaNoticia{
+    margin: 1.5%;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.contenedorForm h3{
+    font-family: "Bebas Neue";
+    color: white;
+    font-size: 150%;
+}
+
+.inter-Tipografia {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.linkNav{
+    width: 80%;
+    padding-left: 3%;
+}
+
+@media(min-width: 1000px) {
+    .contTyN {
+        padding: 1.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .tourFecha .h3{
+        font-size: 1.8rem !important;
+    }
+    .tourFecha .h2{
+        font-size: 2rem !important;
+    }
+    .contenedor{
+        padding: 2.5%;
+    }
+}
+
+
+@media(max-width: 670px) {
+    .contTyN {
+        padding: 1.5%;
+        margin-top: 1.5%;
+        margin-top: 1.5%;
+    }
+    .tourFecha .h3{
+        font-size: 0.9rem !important;
+    }
+    .tourFecha .h2{
+        font-size: 1.1rem !important;
+    }
+    .contenedorIconos img{
+        width: 6%;
+        height: 6%;
+    }
+
+    .divImagen{
+    width: 70% !important;
+    height: 100%;
+    }
+}
+
+@media(min-width: 671px) {
+    .contTyN {
+        padding: 1.5%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .tourFecha .h3{
+        font-size: 1.5rem !important;
+    }
+    .tourFecha .h2{
+        font-size: 1.7rem !important;
+    }
+}
+
+@media(max-width: 980px) {
+    .contenedorIconos img{
+        width: 6%;
+        height: 6%;
+    }
+
+    .divImagen{
+    width: 85%;
+    height: 100%;
+    }
+}
